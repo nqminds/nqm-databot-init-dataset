@@ -10,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "request": "^2.75.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "eslint": "^3.19.0",
+    "ipaddr.js": "^1.3.0",
+    "nqm-api-tdx": "^0.1.38",
+    "nqm-databot-utils": "^0.1.22",
+    "shortid": "^2.2.8",
+    "yauzl": "^2.7.0"
   }
 }
