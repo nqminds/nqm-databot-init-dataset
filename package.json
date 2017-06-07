@@ -1,6 +1,6 @@
 {
-  "name": "nqm-databot-init-dataset",
-  "version": "0.1.0",
+  "name": "nqm-databot-wahsntool",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
