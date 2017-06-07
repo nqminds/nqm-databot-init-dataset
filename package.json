@@ -1,5 +1,5 @@
 {
-  "name": "nqm-databot-init-datasets",
+  "name": "nqm-databot-init-dataset",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
