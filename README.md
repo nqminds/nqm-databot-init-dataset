@@ -1,2 +1,2 @@
-# nqm-databot-wahsn-accounts
-NQM Databot WAHSN Accounts
+# nqm-databot-wahsntool-accounts
+NQM Databot WAHSN Tool Accounts
