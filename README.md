@@ -1,4 +1,11 @@
 # NQM Databot WAHSN Tool Docs
+## Databot inputs
+* ```datasetAccounts``` - account list table id
+* ```datasetMap``` - map table id
+* ```datasetShare``` - share table id
+* ```datasetSkills``` - skills matrix table id
+* ```function``` - databot commands (see below)
+
 ## Databot commands
 * ```createAccounts``` - creates the user accounts from account list table data. Generates the secret for each account and adds it to the account list table.
 * ```addShare``` - add share with given permission to the datasets from share table for each user from account list table.
