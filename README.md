@@ -4,7 +4,8 @@
 * ```addShare``` - add share with given permission to the datasets from share table for each user from account list table.
 * ```removeShare``` - remove share permission for datasets from share table for each user from account list table.
 * ```deleteAccountData``` - removes the account (accounts from account list table) data for each dataset in map table.
-* ```datasetInits``` - initializes each account with default data from map table.
+* ```datasetsInits``` - initializes each account with default data from map table.
+* ```skillsInit``` - initializes the skills matrix dataset (https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FryxlKJP5nx%2Fdata) with data from google spreadsheet (https://docs.google.com/spreadsheets/d/1oiWeoJoeRJoOgorMqXV4Ea9ElSfP9TbRJCW_m7PPTt0/edit#gid=1982823738)
 
 ## Table definitions
 Example tables:
