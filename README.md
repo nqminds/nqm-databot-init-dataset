@@ -3,9 +3,15 @@
 * ```createAccounts``` - creates the user accounts from account list table data. Generates the secret for each account and adds it to the account list table.
 * ```addShare``` - add share with given permission to the datasets from share table for each user from account list table.
 * ```removeShare``` - remove share permission for datasets from share table for each user from account list table.
-
+* ```deleteAccountData``` - removes the account (accounts from account list table) data for each dataset in map table.
+* ```datasetInits``` - initializes each account with default data from map table.
 
 ## Table definitions
+Example tables:
+
+* Account list table - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FBkgLeWIBMb%2Fdata
+* Share table - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FH1lWLP9Izb%2Fdata
+* Map table - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FSJxJ75Oi0e%2Fdata
 
 ### Account list table
 The accounts table stores the ```accountId```, ```accountName``` and ```accountSecret```. To create a list of users one needs to add only the info for ```accountId``` and ```accountName```. The databot will generate the ```accountSecret``` automatically.
@@ -56,4 +62,10 @@ The defult map table:
 | B1llvw5sCe | rag matrix default | serviceId | SJxHvSRupg | json |
 | SkgJ4CtiRe | service poplet default | serviceId | S1MQWDqT5e | json |
 | H1lEfoy0Ag | substitution matrix default | serviceId | SkeFf39p9x | json |
+
+The location of the default datasets:
+* rag matrix default - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fresource%2FB1llvw5sCe%2Fpreview
+* service poplet default - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fresource%2FSkgJ4CtiRe%2Fpreview
+* substitution matrix default - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fresource%2FH1lEfoy0Ag%2Fpreview
+
 
