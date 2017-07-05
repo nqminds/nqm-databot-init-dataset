@@ -32,3 +32,14 @@ The table below contains all the permissions for each dataset used in the WAHSN 
 | Bke2bSVRRl | r/w | service poplet filtered |
 | rJlze8HU0x | r/w | substitution matrix filtered |
 | HkgWmLrU0g | r | working hours filtered |
+
+The location of the datasets:
+* rag matrix filtered - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FBJfbYnfoxb%2Fdata
+* skills matrix filtered - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FBJeSsC4I0l%2Fdata
+* Consultation by location filtered - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FH1lyONrUAe%2Fdata
+* GP consultations filtered - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FS1ludSHI0x%2Fdata
+* salaries filtered - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FHJxI9BrI0x%2Fdata
+* service poplet filtered - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FBke2bSVRRl%2Fdata
+* substitution matrix filtered - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FrJlze8HU0x%2Fdata
+* working hours filtered - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FHkgWmLrU0g%2Fdata
+
