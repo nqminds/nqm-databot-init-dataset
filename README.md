@@ -6,6 +6,8 @@
 * ```datasetSkills``` - skills matrix table id
 * ```function``` - databot commands (see below)
 
+The additional configuration parameters of the databot are located in the package parameters section of the databot GUI.
+
 ## Databot commands
 * ```createAccounts``` - creates the user accounts from account list table data. Generates the secret for each account and adds it to the account list table.
 * ```addShare``` - add share with given permission to the datasets from share table for each user from account list table.
