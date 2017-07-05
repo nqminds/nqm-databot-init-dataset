@@ -1,6 +1,9 @@
 # NQM Databot WAHSN Tool Docs
 ## Databot commands
 * ```createAccounts``` - creates the user accounts from account list table data. Generates the secret for each account and adds it to the account list table.
+* ```addShare``` - add share with given permission to the datasets from share table for each user from account list table.
+* ```removeShare``` - remove share permission for datasets from share table for each user from account list table.
+
 
 ## Table definitions
 
@@ -42,4 +45,15 @@ The location of the datasets:
 * service poplet filtered - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FBke2bSVRRl%2Fdata
 * substitution matrix filtered - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FrJlze8HU0x%2Fdata
 * working hours filtered - https://tdx.nq-m.com/auth?rurl=https%3A%2F%2Fq.nq-m.com%2Fv1%2Fdatasets%2FHkgWmLrU0g%2Fdata
+
+### Map table
+The map table contains the table ids that need to be initialized with data (for each account) from json resources. For instance by default each user needs to have an entry in the rag matrix table. The json resource contains the default value for the rag matrix. In addition the map table contains a column called ```field```, which identifies the account key in tool datasets. For instance if ```field == serviceId``` then the dataset corresponding to this field will have all its account identifiers under ```serviceId```.
+
+The defult map table:
+
+| ```resourceIn``` | ```description``` | ```field``` | ```resourceOut``` | ```type``` |
+| --- | --- | --- | --- | --- |
+| B1llvw5sCe | rag matrix default | serviceId | SJxHvSRupg | json |
+| SkgJ4CtiRe | service poplet default | serviceId | S1MQWDqT5e | json |
+| H1lEfoy0Ag | substitution matrix default | serviceId | SkeFf39p9x | json |
 
